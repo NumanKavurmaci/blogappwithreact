@@ -1,0 +1,24 @@
+.auth-container {
+  padding: 10px; /* Adjust the padding to make the container thinner */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.auth-user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.auth-header {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.sign-out-button {
+  background-color: #ff5733;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}

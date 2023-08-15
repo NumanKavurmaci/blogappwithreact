@@ -1,0 +1,91 @@
+/* header.css */
+
+.header {
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 10px 20px;
+}
+.header_search {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.header_logoLink {
+  margin-right: 20px; /* Add margin to separate the logo from search bar */
+}
+
+.header_logo {
+  width: 40px; /* Adjust the logo size as needed */
+  height: 40px;
+  object-fit: contain;
+}
+
+.header_searchForm {
+  display: flex;
+  align-items: center;
+}
+
+.header_searchInput {
+  height: 28px; /* Adjust the input height as needed */
+  padding: 6px 10px; /* Add padding to the input */
+  border: none;
+}
+
+.header_searchButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.header_option {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: green;
+}
+
+.header_link {
+  text-decoration: none;
+  color: green;
+  margin: 10px;
+}
+
+.header_optionLineOne {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.header_optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header_homeIcon {
+  font-size: 24px; /* Adjust the icon size as needed */
+  margin-right: 10px; /* Add margin to separate the icon from the search bar */
+}
+
+/* Additional styling for responsiveness */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .header_search {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .header_option {
+    margin: 5px 0;
+  }
+}

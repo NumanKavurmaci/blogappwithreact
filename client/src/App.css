@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+.app {
+  position: relative;
+  overflow: auto;
+}
+
+.universe-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Use vw units to make it fill the whole screen width */
+  height: 100vh; /* Use vh units to make it fill the whole screen height */
+  background-image: url("universe.jpg");
+  background-size: cover;
+  z-index: -2;
+  pointer-events: none;
+}
+
+.content-container {
+  position: relative;
+  z-index: 1;
+  overflow: auto;
+  height: 100vh; /* Set a fixed height for scrolling */
+}

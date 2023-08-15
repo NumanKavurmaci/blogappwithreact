@@ -1,0 +1,67 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  max-height: 400px;
+  min-width: 100px;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 1;
+  width: 50%;
+  padding: 0;
+  position: relative;
+  overflow: auto;
+}
+
+.post_header {
+  position: relative;
+  width: 100%;
+  height: 20%;
+  overflow: hidden;
+}
+
+.post_header > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+}
+.post_header > .post_title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  text-decoration: none;
+  bottom: 10px; /* Adjust as needed */
+  left: 10px; /* Adjust as needed */
+  padding: 5px 10px; /* Add padding for better readability */
+  z-index: 2; /* Place above the image */
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    2px 2px 0 black; /* Add black casing */
+  color: white; /* Set white text color */
+}
+.post_content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.post_info {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  margin-top: auto;
+}
+
+.post_author {
+  margin-right: 20px;
+}
+
+.post > p {
+  margin: 0;
+  padding-top: 10px;
+}
+
+.post > button {
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+}

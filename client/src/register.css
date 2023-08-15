@@ -1,0 +1,39 @@
+.register {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.register_logo {
+  width: 100px;
+  object-fit: contain;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.register_container {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.register_container p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.register_container h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.register_container > form > h5 {
+  margin-bottom: 5px;
+}
+.register_container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+}

@@ -1,0 +1,44 @@
+/* home.css */
+
+.post_list {
+  flex: 1; /* Let the post list take remaining space */
+}
+
+/* contact info items*/
+.contact-info {
+  width: 350px;
+  height: fit-content;
+  background-color: #ebdddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 200px;
+  right: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  z-index: 1;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+/* tag list items*/
+.tag-list {
+  width: 350px;
+  height: fit-content;
+  background-color: #ebdddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  position: sticky;
+  top: unset;
+  right: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-top: 50px;
+  z-index: 1;
+}

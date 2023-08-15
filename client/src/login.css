@@ -1,0 +1,61 @@
+.login {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login_logo {
+  width: 100px;
+  object-fit: contain;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.login_container {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Added shadow effect */
+}
+.login_signInButton,
+.login_registerButton,
+.login_forgotPasswordButton {
+  background-color: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  height: 30px;
+  border-radius: 2px;
+  color: #111;
+  border-color: #a88734 #9c7e31 #846a29;
+  align-items: center;
+}
+.login_container p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.login_container h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.login_container > form > h5 {
+  margin-bottom: 5px;
+}
+.login_container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+}
+.text-center {
+  text-align: center;
+  color: white;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Added shadow effect */
+}
+.form-label {
+  color: white;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Added shadow effect */
+}
